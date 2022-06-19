@@ -1,0 +1,19 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Schuler",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-file-upload": "^5.0.8",
+    "gerador-validador-cpf": "^5.0.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
