@@ -1,0 +1,7 @@
+{
+    "gitProjectManager.baseProjectsFolders": [
+
+        "C:/testes"
+    ],
+    "gitProjectManager.ignoredFolders": ["node_modules"]
+}
