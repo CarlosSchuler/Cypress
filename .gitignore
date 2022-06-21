@@ -1,1 +1,5 @@
-cypress-discovery/buger-eats/.vscode/settings.json
+Cypress\node_modules
+Cypress\cypress-discovery\node_modules
+Cypress\cypress-discovery\buger-eats\node_modules
+Cypress\cypress-discovery\buger-eats\cypress\videos
+Cypress\cypress-discovery\buger-eats\cypress\screenshots
