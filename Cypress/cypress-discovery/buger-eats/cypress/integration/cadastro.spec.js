@@ -5,7 +5,7 @@ import SignupPage from "../pages/SignupPage";
 
 
 describe("Cadastro", () => {
-  it.skip("Usuário deve se tornar um entregador", function () {
+  it("Usuário deve se tornar um entregador", function () {
     var deliver = SignUpFactory.deliver();
 
     signUp.go();
@@ -16,7 +16,7 @@ describe("Cadastro", () => {
     );
   });
 
-it.skip("CPF incorreto", function () {
+it("CPF incorreto", function () {
     var deliver = SignUpFactory.deliver();
 
     deliver.cpf = "0182123abcas";
@@ -27,7 +27,7 @@ it.skip("CPF incorreto", function () {
     signUp.modalErrorShouldBe("Oops! CPF inválido");
   });
 
-it.skip("Email incorreto", function () {
+it("Email incorreto", function () {
     var deliver = SignUpFactory.deliver();
 
     deliver.email = "mail.com";
