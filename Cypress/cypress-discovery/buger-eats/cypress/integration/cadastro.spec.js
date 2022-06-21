@@ -45,7 +45,7 @@ context("Required fields", function () {
       { field: "email", output: "É necessário informar o email" },
       { field: "cep", output: "É necessário informar o CEP" },
       { field: "number", output: "É necessário informar o número do endereço" },
-      { field: "delivery", output: "Selecione o métodos de entrega" },
+      { field: "delivery", output: "Selecione o método de entrega" },
       { field: "cnh", output: "Adicione uma foto da sua CNH" }
     ]
 
