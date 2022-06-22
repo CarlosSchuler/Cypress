@@ -6,7 +6,7 @@ jobs:
 
   ui-chrome-tests:
     runs-on: ubuntu-latest
-    container: cypress/browsers:node14.17.0-chrome88-ff89
+    container: Cypress/cypress-discovery/buger-eats/browsers:node14.17.0-chrome88-ff89
     strategy:
       fail-fast: false
     steps:
@@ -22,4 +22,4 @@ jobs:
           browser: chrome
           record: true
           group: 'UI - Chrome'
-          spec: cypress/integration/*
+          spec: Cypress/cypress-discovery/buger-eats/cypress/integration/*
