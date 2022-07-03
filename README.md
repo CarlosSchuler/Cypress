@@ -1,6 +1,1 @@
-Roadmap - 2022
-Espresso - Java
-Cypress - JS
-Playwright - Python
-RestAssured - Java
-Appium
+Cypress From Cypress discovery, a free course from QA Academy.
